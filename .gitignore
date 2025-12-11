@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+venv/
+.env
+
+# Кэш и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.iml
+
+# --- Проектные данные ---
+
+# Векторная база Chroma (генерируется автоматически)
+data/chroma_db/
+
+# Если будут большие временные файлы/результаты
+data/tmp/
